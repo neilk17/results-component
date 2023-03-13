@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="../output.css">
+
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-gray-50 flex sm:justify-center sm:items-center h-screen">
+  <div class="flex flex-col shadow-2xl sm:flex-row h-96 rounded-xl bg-white">
+    <div class="flex flex-col gap-4 justify-start items-center p-12 w-max sm:w-64 bg-gradient-to-b from-light-slate-blue to bg-light-royal-blue rounded-2xl">
+      <p class="text-pale-blue text-md">Your result</p>
+      <div class="flex items-center justify-center w-24 h-24 bg-gradient-to-b from-violet-blue rounded-full">
+        <p class="text-4xl font-bold text-white">76</p>
+      </div>
+      <div class="text-center">
+        <h1 class="text-white">Great</h1>
+        <p class="text-xs text-pale-blue">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+    </div>
+    <div class="w-64 p-8">
+      <p class="text-lg font-bold text-dark-gray-blue">Summary</p>
+      <div class="flex flex-col gap-2 my-4">
+        <div class="rounded-lg p-2 flex flex-row justify-between cursor-pointer bg-light-red/10 hover:bg-light-red/20">
+          <div class="flex flex-row">
+            <img src="../assets/images/icon-reaction.svg">
+            <p class="text-light-red">Reaction</p>
+          </div>
+          <p class="font-medium text-gray-400"><span class="text-slate-900">80 </span>/ 100</p>
+        </div>
+        <div class="rounded-lg p-2 flex flex-row justify-between bg-orangey-yellow/10 hover:bg-orangey-yellow/20 cursor-pointer">
+          <div class="flex flex-row">
+            <img src="../assets/images/icon-memory.svg">
+            <p class="text-orangey-yellow">Memory</p>
+          </div>
+          <p class="font-medium text-gray-400"><span class="text-slate-900">92 </span>/ 100</p>
+  
+        </div>
+        <div class="rounded-lg p-2 flex flex-row justify-between bg-green-teal/10 hover:bg-green-teal/20 cursor-pointer">
+          <div class="flex flex-row">
+            <img src="../assets/images/icon-verbal.svg">
+            <p class="text-green-teal">Verbal</p>
+          </div>
+          <p class="font-medium text-gray-400"><span class="text-slate-900">61 </span>/ 100</p>
+        </div>
+        <div class="rounded-lg p-2 flex flex-row justify-between bg-cobalt-blue/10 hover:bg-cobalt-blue/20 cursor-pointer">
+          <div class="flex flex-row">
+            <img src="../assets/images/icon-visual.svg">
+            <p class="text-cobalt-blue">Visual</p>
+          </div>
+          <p class="font-medium text-gray-400"><span class="text-slate-900">72 </span>/ 100</p>
+        </div>
+      </div>
+      <button class="bg-dark-gray-blue text-pale-blue items-center w-full py-2 rounded-full hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue">
+        Continue
+      </button>
+    </div>
+  </div>
+  </div>
+</body>
+  <!-- 
+  Reaction
+  Memory
+
+  Verbal
+  
+
+  Visual
+  
+
+  Continue -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</html>
